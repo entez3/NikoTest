@@ -1,0 +1,155 @@
+.m-0 {
+    margin: 0 !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.gry {
+    color: #707070;
+}
+
+.c-gold {
+    color: #fcd600;
+}
+
+.d-gold {
+    color: #b29700;
+}
+
+.icon-size {
+    block-size: 40px;
+}
+
+.nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.d-inline {
+    display: inline !important;
+}
+
+.headline {
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.box-shadow {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #707070 0px 0px 3px;
+}
+
+.btn-primary {
+    background-color: #e42a3f;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.border-0 {
+    border: none !important;
+}
+
+.border-radius-0 {
+    border-radius: 0;
+}
+
+.outline-0 {
+    outline: none !important;
+}
+
+.Oflow-h {
+    overflow: hidden !important;
+}
+
+.border-bottom {
+    border-bottom: #e2e2e2 0.1px solid !important;
+    padding-bottom: 5px;
+}
+
+
+/* @media only screen and (min-width: 576px) {
+    .d-sm-none {
+        display: none !important;
+    }
+    .d-sm-block {
+        display: block !important;
+    }
+    .d-sm-flex {
+        display: flex !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .d-md-none {
+        display: none !important;
+    }
+    .d-md-block {
+        display: block !important;
+    }
+    .d-md-flex {
+        display: flex !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .d-lg-none {
+        display: none !important;
+    }
+    .d-lg-block {
+        display: block !important;
+    }
+    .d-lg-flex {
+        display: flex !important;
+    }
+} */

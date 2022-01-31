@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "BNazanin";
+    src: url("../fonts/B-Nazanin.eot");
+    src: url("../fonts/BNazanin.eot") format("embedded-opentype");
+    src: url("../fonts/BNazanin.woff2") format("woff2");
+    src: url("../fonts/BNazanin.woff") format("woff");
+    src: url("../fonts/BNazanin.ttf") format("truetype");
+    font-weight: bolder;
+    font-style: normal;
+    font-size: larger;
+    text-rendering: optimizeLegibility;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: "Yekan";
+    src: url("../fonts/Yekan.eot");
+    src: url("../fonts/Yekan.otf") format("embedded-opentype");
+    src: url("../fonts/Yekan.woff2") format("woff2");
+    src: url("../fonts/Yekan.woff") format("woff");
+    src: url("../fonts/Yekan.otf") format("opentype");
+    src: url("../fonts/Yekan.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    font-display: auto;
+}
+
+
+/*============= set icon font google ============= */
+
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2");
+}
+
+.material-icons {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    /* -webkit-font-feature-settings: "liga"; */
+    -webkit-font-smoothing: antialiased;
+}

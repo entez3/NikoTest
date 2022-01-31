@@ -1,0 +1,98 @@
+            @media only screen and (max-width:1200px) {
+                /* =========== start headear =========== */
+                .menu-item>.btn-primary {
+                    padding: 4px;
+                    font-size: small;
+                }
+                .search-group>.search-btn {
+                    padding: 20px 70px;
+                }
+                .suggest-item {
+                    max-width: 48%;
+                }
+            }
+            
+            @media screen and (max-width:992px) {
+                /* =========== start headear =========== */
+                ul,
+                li {
+                    margin: 5px 0px !important;
+                }
+                .main-menu,
+                .header-btn,
+                .menu {
+                    flex-direction: column;
+                    padding: 0;
+                    color: #fff;
+                }
+                .menu-item>.btn-primary {
+                    background-color: #fff;
+                    color: #000;
+                    padding: 1px 50px;
+                    font-size: small;
+                    border-radius: 3px;
+                }
+                section.menu {
+                    align-items: flex-start;
+                    padding-right: 20px;
+                    height: 100vh;
+                    background-color: #e42a3f;
+                    width: 200px;
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: -200px;
+                    transition: 1s;
+                }
+                .fa-list {
+                    display: block;
+                    align-self: center;
+                }
+                .exit-icon {
+                    display: inline;
+                    margin-bottom: 20px;
+                }
+                /* =========== start main =========== */
+                .services {
+                    flex-wrap: wrap;
+                }
+                .services-item {
+                    margin-bottom: 10px;
+                }
+                .empty {
+                    height: 300px;
+                }
+            }
+            
+            @media screen and (max-width:768px) {
+                .search-item {
+                    font-size: x-small;
+                }
+                .bestpool-content {
+                    font-size: unset;
+                }
+                .f-container {
+                    flex-wrap: wrap;
+                }
+            }
+            
+            @media screen and (max-width:576px) {
+                .search-group {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    border: none;
+                }
+                .suggest-item {
+                    max-width: 100%;
+                }
+                .bestsellers-item {
+                    flex-direction: column-reverse;
+                    margin: 5px 0;
+                }
+                .bestpool-item {
+                    flex-direction: column-reverse;
+                }
+                .font {
+                    font-size: xx-small;
+                }
+            }

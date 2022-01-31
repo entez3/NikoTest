@@ -1,0 +1,283 @@
+html {
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-family: Yekan;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+select {
+    appearance: none;
+}
+
+
+/* =========== start headear =========== */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-top: -25px;
+    max-width: 130px;
+    width: 130px;
+    max-height: 100px;
+    height: 100px;
+}
+
+.main-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    color: #707070;
+    list-style: none;
+}
+
+.main-menu>.menu-item {
+    margin: 0 20px;
+    align-items: center;
+}
+
+.header-btn {
+    display: flex;
+    list-style: none;
+}
+
+.header-btn>.menu-item {
+    margin: 0 2px;
+}
+
+.fa-list {
+    cursor: pointer;
+    display: none;
+    color: #e42a3f;
+    font-size: 30px;
+    align-self: flex-end;
+}
+
+.exit-icon {
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+/* =========== header contant =========== */
+
+.img-head {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.search-group {
+    display: flex;
+    margin-top: -40px;
+    border-radius: 8px;
+    box-shadow: #707070 1px 1px 5px;
+    overflow: hidden;
+}
+
+.search-item {
+    padding: 20px 30px;
+    border-left: #e2e2e2 0.1px solid !important;
+}
+
+.search-btn {
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 0;
+}
+
+
+/* =========== end headear =========== */
+
+
+/* =========== start main =========== */
+
+.services {
+    margin-top: 30px;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    justify-self: center;
+}
+
+.services-item {
+    display: flex;
+    border-radius: 10px;
+    box-shadow: #707070 0px 0px 5px;
+    margin: 0 17px;
+    align-items: center;
+}
+
+.services-item>img {
+    margin: 0 10px;
+}
+
+.services-item>p {
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* =========== start suggest section =========== */
+
+.suggest-head {
+    margin: 50px 20px;
+}
+
+.suggest-item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #707070 0px 0px 4px;
+    margin: 5px;
+    max-width: 24%;
+}
+
+.suggest-title,
+.suggest-item>p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.suggest-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggest-btn {
+    border-radius: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* =========== empty section =========== */
+
+.empty {
+    margin: 30px 0;
+    border: #707070 1px solid;
+    height: 500px;
+}
+
+
+/* =========== Best sellers section ===========  */
+
+.bestsellers-item {
+    margin: 5px 3px;
+}
+
+.Bestseller-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    justify-content: center;
+}
+
+.reservation-btn {
+    align-self: center;
+    padding: 5px 50px;
+}
+
+
+/* =========== Best pools section ===========  */
+
+.bestpool-item {
+    margin: 5px;
+}
+
+.bestpool-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    flex-direction: column;
+    padding: 0 4px;
+}
+
+.star {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+/*  =========== end main ===========  */
+
+
+/* =========== start footer =========== */
+
+footer {
+    margin-top: 50px;
+    background-color: #c7c7c7;
+}
+
+.font {
+    font-family: BNazanin !important;
+}
+
+.icon-footer {
+    padding-left: 5px;
+}
+
+.app-img {
+    margin: 5px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.app-img>img {
+    width: 100%;
+    height: fit-content;
+}
+
+.logo-footer {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.logo-s {
+    background-color: #fff;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.copyright {
+    background-color: #4b4b4b;
+    color: #fff;
+    text-align: center;
+}
